@@ -33,6 +33,8 @@ struct DetailedView: View {
                 UINavigationController.attemptRotationToDeviceOrientation()
             }
         }
+        
+        .navigationTitle("Details")
     }
 }
 

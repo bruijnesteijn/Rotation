@@ -13,6 +13,8 @@ struct MainView: View {
         NavigationView {
             NavigationLink("Show details", destination: DetailedView())
                 .frame(width: 300, height: 150, alignment: .center).background(Color.rectangleAccentColor)
+            
+                .navigationTitle("Main")
         }
     }
 }
