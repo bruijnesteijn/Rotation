@@ -11,7 +11,8 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         NavigationView {
-            NavigationLink("Content", destination: ContentView())
+            NavigationLink("Show details", destination: DetailedView())
+                .frame(width: 300, height: 150, alignment: .center).background(Color.rectangleAccentColor)
         }
     }
 }
